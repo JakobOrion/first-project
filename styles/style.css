@@ -10,10 +10,50 @@
 }
 
 .header {
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
   /* parameters for the header section */
+}
+
+.logo {
+  width: 154px;
+  height: 31px;
+  background-size: cover;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  background-image: url('../images/logo_place_header.png');
+}
+
+.header_title {
+  max-width: 730px;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header_subtitle {
+  max-width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header_link {
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
