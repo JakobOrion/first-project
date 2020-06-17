@@ -172,9 +172,6 @@
   justify-content: space-between;
 }
 
-.table_theme_dark {
-}
-
 .table__cell {
   width: 250px;
   margin-top: 60px;
@@ -296,24 +293,13 @@
 }
 
 .footer__column {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_copyright {
-  display: flex;
-  flex-direction: column;
   flex-basis: 711px;
   justify-content: space-between;
-}
-
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
 }
 
 .logo_place_footer {
