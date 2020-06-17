@@ -127,7 +127,7 @@
 /* Digits */
 
 .digits {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 .section-title {
@@ -178,6 +178,46 @@
 }
 
 /* Feynman */
+
+.feynman {
+  position: relative;
+  min-height: 790px;
+  padding-top: 100px;
+  background-color: #f2f2f2;
+  background-image: url('../images/feynman.png');
+  background-position: 90px bottom;
+  background-repeat: no-repeat;
+  background-size: 867px 637px;
+}
+
+.feynman__title {
+  max-width: 775px;
+  margin: 0 auto;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  margin: 70px auto 0;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  color: #000;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
 
 /* Kaufman */
 
