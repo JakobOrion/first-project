@@ -1,15 +1,12 @@
 .page {
   min-width: 1100px;
-  /* we don't know how to make mobile versions of websites yet, */
-  /* so here we've set a minimum page width */
   max-width: 1600px;
-  /* here we've set a maximum page width */
   margin: 0 auto;
-  /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 /* Header */
+
 
 .header {
   position: relative;
@@ -20,7 +17,6 @@
   display: flex;
   align-items: center;
   z-index: 0;
-  /* parameters for the header section */
 }
 
 .logo {
@@ -71,7 +67,6 @@
   height: 608px;
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -83,6 +78,7 @@
 }
 
 /* Description */
+
 
 .description {
   margin-top: 100px;
@@ -127,6 +123,7 @@
 }
 
 /* Digits */
+
 
 .digits {
   margin: 100px 0;
@@ -181,6 +178,7 @@
 
 /* Feynman */
 
+
 .feynman {
   position: relative;
   min-height: 790px;
@@ -221,6 +219,7 @@
 }
 
 /* Kaufman */
+
 
 .kaufman {
   position: relative;
@@ -273,7 +272,6 @@
   justify-content: space-between;
 }
 
-/* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -298,6 +296,7 @@
 }
 
 /* Footer */
+
 
 .footer {
   display: flex;
